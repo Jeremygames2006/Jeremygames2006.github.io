@@ -1,0 +1,374 @@
+a {
+  color: red;
+}
+
+.u-section-1 {
+  background-image: url("/images/Galaxy.jpg");
+  background-position: 50% 50%;
+}
+
+.u-section-1 .u-sheet-1 {
+  min-height: 606px;
+}
+
+.u-section-1 .u-text-1 {
+  font-family: Shentox_Regular;
+  font-size: 3rem;
+  margin: 479px auto 0;
+}
+
+.u-section-1 .u-text-2 {
+  font-family: Shentox_Regular;
+  font-size: 1.875rem;
+  margin: 1px auto 41px;
+}
+
+@media (max-width: 1199px) {
+   .u-section-1 {
+    background-position: 50% 50%;
+  }
+
+  .u-section-1 .u-sheet-1 {
+    min-height: 500px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 383px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 287px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 632px;
+  }
+
+  .u-section-1 .u-text-1 {
+    font-size: 2.25rem;
+    width: auto;
+    margin-top: 480px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .u-section-1 .u-text-2 {
+    margin-top: 0;
+  }
+}.u-section-2 .u-sheet-1 {
+  min-height: 816px;
+}
+
+.u-section-2 .u-text-1 {
+  font-family: Shentox_Regular;
+  font-size: 3rem;
+  font-weight: 700;
+  margin: 20px auto 0;
+}
+
+.u-section-2 .u-text-2 {
+  font-family: Shentox_Regular;
+  font-size: 1.25rem;
+  margin: 20px 570px 0 55px;
+}
+
+.u-section-2 .u-text-3 {
+  font-family: Shentox_Regular;
+  font-size: 1.25rem;
+  margin: 30px 62px 0 570px;
+}
+
+.u-section-2 .u-text-4 {
+  font-family: Shentox_Regular;
+  font-size: 1.25rem;
+  width: 715px;
+  margin: 97px auto 0;
+}
+
+.u-section-2 .u-text-5 {
+  font-family: Shentox_Regular;
+  margin: 77px auto 20px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-2 .u-text-2 {
+    margin-right: 425px;
+    margin-left: 0;
+  }
+
+  .u-section-2 .u-text-3 {
+    margin-right: 0;
+    margin-left: 432px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-2 .u-text-2 {
+    margin-right: 205px;
+  }
+
+  .u-section-2 .u-text-3 {
+    margin-left: 212px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-2 .u-text-2 {
+    font-size: 1rem;
+    margin-right: 25px;
+  }
+
+  .u-section-2 .u-text-3 {
+    font-size: 1rem;
+    margin-left: 32px;
+  }
+
+  .u-section-2 .u-text-4 {
+    font-size: 1rem;
+    width: 540px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-2 .u-text-2 {
+    margin-right: 0;
+  }
+
+  .u-section-2 .u-text-3 {
+    margin-left: 0;
+  }
+
+  .u-section-2 .u-text-4 {
+    width: 340px;
+  }
+}.u-block-c550-2 {
+  position: absolute;
+  bottom: 10px;
+}
+
+.u-block-c550-3 {
+  position: absolute;
+  left: calc(((100% - 1140px) / 2)  + -128px);
+  width: 65px;
+  height: 65px;
+  right: auto;
+}
+
+.u-block-c550-4 {
+  position: absolute;
+  width: 65px;
+  height: 65px;
+  left: auto;
+  right: calc(((100% - 1140px) / 2)  + -128px);
+}
+
+@media (max-width: 1199px) {
+  .u-block-c550-3 {
+    left: calc(((100% - 940px) / 2)  + -106px);
+  }
+
+  .u-block-c550-4 {
+    right: calc(((100% - 940px) / 2)  + -106px);
+  }
+}
+
+@media (max-width: 991px) {
+  .u-block-c550-3 {
+    left: calc(((100% - 720px) / 2)  + -81px);
+  }
+
+  .u-block-c550-4 {
+    right: calc(((100% - 720px) / 2)  + -81px);
+  }
+}
+
+@media (max-width: 767px) {
+  .u-block-c550-3 {
+    left: calc(((100% - 540px) / 2)  + -61px);
+  }
+
+  .u-block-c550-4 {
+    right: calc(((100% - 540px) / 2)  + -61px);
+  }
+}
+
+@media (max-width: 575px) {
+  .u-block-c550-3 {
+    left: calc(((100% - 340px) / 2)  + -38px);
+  }
+
+  .u-block-c550-4 {
+    right: calc(((100% - 340px) / 2)  + -38px);
+  }
+}
+
+ .u-section-3-1 {
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("/images/community/RealitysEndCover.jpg");
+  background-position: 50% 50%;
+}
+
+.u-section-3-1 .u-sheet-1 {
+  min-height: 800px;
+}
+
+.u-section-3-1 .u-text-1 {
+  font-family: Shentox_Regular;
+  font-size: 4.5rem;
+  margin: 330px auto 0;
+}
+
+.u-section-3-1 .u-text-2 {
+  font-family: Shentox_Regular;
+  font-size: 1.25rem;
+  width: 553px;
+  margin: 0 auto 60px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-3-1 .u-sheet-1 {
+    min-height: 660px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-3-1 .u-sheet-1 {
+    min-height: 506px;
+  }
+
+  .u-section-3-1 .u-text-1 {
+    margin-left: 29px;
+  }
+
+  .u-section-3-1 .u-text-2 {
+    width: auto;
+    margin-left: 29px;
+    margin-right: 29px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-3-1 .u-sheet-1 {
+    min-height: 380px;
+  }
+
+  .u-section-3-1 .u-text-1 {
+    font-size: 3rem;
+    margin-left: 18px;
+  }
+
+  .u-section-3-1 .u-text-2 {
+    margin-left: 18px;
+    margin-right: 18px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-3-1 .u-sheet-1 {
+    min-height: 350px;
+  }
+
+  .u-section-3-1 .u-text-1 {
+    font-size: 2.75rem;
+    margin-left: 23px;
+  }
+
+  .u-section-3-1 .u-text-2 {
+    margin-left: 23px;
+    margin-right: 23px;
+  }
+}
+
+ .u-section-3-2 {
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("https://assets.nicepagecdn.com/915d4c80/5851387/images/Picsart_24-02-05_21-18-58-070.jpg");
+  background-position: 50% 50%;
+}
+
+.u-section-3-2 .u-sheet-1 {
+  min-height: 800px;
+}
+
+.u-section-3-2 .u-text-1 {
+  font-family: Shentox_Regular;
+  font-size: 4.5rem;
+  margin: 314px auto 0;
+}
+
+.u-section-3-2 .u-text-2 {
+  font-size: 1.25rem;
+  font-family: Shentox_Regular;
+  width: 837px;
+  margin: -8px auto 60px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-3-2 .u-sheet-1 {
+    min-height: 660px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-3-2 .u-sheet-1 {
+    min-height: 506px;
+  }
+
+  .u-section-3-2 .u-text-1 {
+    margin-left: 29px;
+  }
+
+  .u-section-3-2 .u-text-2 {
+    width: auto;
+    margin-left: 29px;
+    margin-right: 29px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-3-2 .u-sheet-1 {
+    min-height: 380px;
+  }
+
+  .u-section-3-2 .u-text-1 {
+    font-size: 3rem;
+    margin-left: 18px;
+  }
+
+  .u-section-3-2 .u-text-2 {
+    margin-left: 18px;
+    margin-right: 18px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-3-2 .u-sheet-1 {
+    min-height: 350px;
+  }
+
+  .u-section-3-2 .u-text-1 {
+    font-size: 2.75rem;
+    margin-left: 23px;
+  }
+
+  .u-section-3-2 .u-text-2 {
+    margin-left: 23px;
+    margin-right: 23px;
+  }
+}@font-face {
+  font-family: 'Shentox_Regular';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://assets.nicepagecdn.com/915d4c80/5851387/fonts/Shentox_Regular.otf);
+}
+
+
+.BackGroundImage {
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
