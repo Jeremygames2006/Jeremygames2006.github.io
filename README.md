@@ -1,5 +1,5 @@
-# De Website van JET-Net
+# Iets met een website ofzo
 
-Waar alles in staat beschreven over JET-Net.
+Yeah idrk what to put here
 
-**Huidige Versie:** ` V3.0-1132025 `
+**Huidige Versie:** ` V2112026 `

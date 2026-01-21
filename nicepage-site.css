@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 /* Algemene Font */
-.u-body, body {
-  font-family: 'Shentox', Arial;
+.u-body, html, body {
+  font-family: 'Shentox', Roboto;
 }
 
 h1, h2, h3, h4, h5, h6, p {
-  font-family: 'Shentox', Arial;
+  font-family: 'Shentox', Roboto;
 }
 
 ::selection { /* Tekstselectiekleur rood maken (ipv blauw) */
@@ -72,11 +73,11 @@ a href {
 /*end-variables color*/
 /*begin-variables font*/
 .u-custom-font.u-text-font {
-  font-family: 'Shentox' !important;
+  font-family: 'Shentox', 'Roboto' !important;
 }
 
 .u-custom-font.u-heading-font {
-  font-family: 'Shentox' !important;
+  font-family: 'Shentox', 'Roboto' !important;
 }
 
 /*end-variables font*/
