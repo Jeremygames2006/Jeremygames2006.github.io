@@ -1,0 +1,40 @@
+/* Fonts */
+@font-face {
+  font-family: "Shentox";
+  src:
+    local("Shentox"),
+    local("Shentox Regular"),
+    url("../Fonts/Shentox_Regular.otf") format("opentype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Aeonis_Regular';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../Fonts/Aeonis-Condensed.ttf');
+}
+
+
+
+/* Overige */
+h1, h2, h3, h4 {
+    font-family: 'Aeonis_Regular';
+}
+
+::selection { /* Tekstselectiekleur rood maken (ipv blauw) */
+  background: red;
+  color: white
+}
+
+a href {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav { /* Font voor de navigatie */
+  font-family: 'Aeonis_Regular';
+}

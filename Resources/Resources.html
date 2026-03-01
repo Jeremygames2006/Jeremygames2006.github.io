@@ -14,17 +14,18 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>𝗛𝗼𝗺𝗲 @ JET-Net</title>
+  <title>𝗥𝗲𝘀𝗼𝘂𝗿𝗰𝗲𝘀 @ JET-Net</title>
 
   <!-- Discord Embed -->
-  <meta property="og:title" content="That Page Doesn't Exist...">
-  <meta property="og:description" content="Je hebt zojuist een embed gevonden van de 404 pagina! Deze embed verschijnt wanneer je een URL probeert te bezoeken die niet bestaat. Misschien heb je een typefout gemaakt, of misschien is er een link die niet goed werkt. Maar maak je geen zorgen, er zijn genoeg andere interessante dingen op de site om te ontdekken!">
-  <meta name="theme-color" content="#ffffff">
+  <meta property="og:title" content="Resources @ JET-Net">
+  <meta property="og:description" content="Iets nodig? Hier vind je alle publiekelijk beschikbare software die we hebben gemaakt, en misschien ook wat extra's :)">
+  <meta name="theme-color" content="#ff0000">
   <meta property="og:type" content="website">
   <meta property="og:image" content="/IMGs/Icons/JETSYS.png">
 
   
   <!-- CSS en Overige -->
+  <link rel="stylesheet" href="./Resources.css">
   <link rel="stylesheet" href="/CSS/base.css">
   <link rel="stylesheet" href="/CSS/styles.css">
   <link rel="icon" href="/IMGs/Icons/JG2006.png">
@@ -40,7 +41,7 @@
   <header class="site-header" id="top">
   <a class="brand" href="/" aria-label="Terug naar home" title='↩ Terug naar Home'>
     <img src="/IMGs/Icons/JG2006.png" alt="" width="40" height="40">
-    <span class="brand-text" id="brand-text">@ Home</span>
+    <span class="brand-text" id="brand-text">@ Resources</span>
   </a>
 
   <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu">
@@ -78,13 +79,42 @@
   <main>
     <section class="hero" aria-labelledby="hero-title">
       <div class="hero-content">
-        <p class="hero-kicker">Error Page</p>
-        <h1 id="hero-title">404 <span style="font-weight: 100">// Page Not Found</span></h1>
-        <p class="hero-subtitle">The requested page does not exist.</p>
-        <a class="hero-cta" href="/">↩ Terug naar Home</a>
+        <p class="hero-kicker">Resources</p>
+        <h1 id="hero-title">Resources <span style="font-weight: 100">// Publiekelijk-Beschikbare Software</span></h1>
+        <p class="hero-subtitle">"What do you need?"</p>
+      </div>
+    </section>
+
+    <!-- Blok -->
+    <section class="panel reveal" id="nieuws" aria-labelledby="news-title">
+      <div class="panel-inner">
+        <h2 id="news-title">Onze Software</h2>
+        
+        <div class="news-grid">
+            <article class="news-card reveal delay-1">
+              <h3>RX5000</h3>
+              <p>RX5000 geplaatst? Dan heb je het volgende programma nodig om hem correct te laten werken met de kassa. <strong>Let op: voer dit uit vanuit een CMD venster met Admin rechten!</strong></p>
+              <a class="chip" href="/Resources/Software/RX5000Posflowkoppeling.msi">⬇ Downloaden</a>
+            </article>
+            <!-- <article class="news-card reveal delay-2">
+              <h3>Lore uitbreiding</h3>
+              <p>Nieuwe verhaallijnen worden voorbereid zodat personages sterker gekoppeld zijn aan het netwerk.</p>
+              <span class="chip">Story update</span>
+            </article>
+            <article class="news-card reveal delay-3">
+              <h3>Community updates</h3>
+              <p>Toegankelijkheid en navigatie zijn aangescherpt voor mobiel, tablet en desktop zonder extra frameworks.</p>
+              <span class="chip">UX pass</span>
+            </article> -->
+        </div>
+
       </div>
     </section>
   </main>
 
+  <!-- VOET -->
+  <footer class="site-footer reveal">
+    <p>JET-Net @ 2026</p>
+  </footer>
 </body>
 </html>
