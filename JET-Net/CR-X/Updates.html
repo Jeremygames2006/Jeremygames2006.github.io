@@ -1,0 +1,116 @@
+<!--                                                                                
+        88  88888888888  888888888888       888b      88                       
+        88  88                88            8888b     88                ,d     
+        88  88                88            88 `8b    88                88     
+        88  88aaaaa           88            88  `8b   88   ,adPPYba,  MM88MMM  
+        88  88"""""           88  aaaaaaaa  88   `8b  88  a8P_____88    88     
+        88  88                88  """"""""  88    `8b 88  8PP"""""""    88     
+88,   ,d88  88                88            88     `8888  "8b,   ,aa    88,    
+ "Y8888P"   88888888888       88            88      `888   `"Ybbd8"'    "Y888 
+  -= Dé Website =-
+ -->
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>𝗖𝗥-𝗫 @ JET-Net</title>
+
+  <!-- Discord Embed -->
+  <meta property="og:title" content="CR-X Traffic | JET-Net">
+  <meta property="og:description" content="Bekijk de laatste updates en de huidige verkeerssituatie op de CR-X. Blijf op de hoogte van vertragingen, wegwerkzaamheden en andere belangrijke informatie om je reis soepel te laten verlopen.">
+  <meta name="theme-color" content="#ff0000">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="/IMGs/Icons/CR-X.png">
+
+  <!-- CSS en Overige -->
+  <link rel="stylesheet" href="./SeperateCSS/CR-X.css"/>
+  <link rel="stylesheet" href="./SeperateCSS/Updates.css"/>
+  <link rel="icon" href="/IMGs/Icons/CR-X.png">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header">
+    <div class="header-inner">
+      <div class="logo">
+        <a href="/JET-Net/CR-X/CR-X.html"><img src="/IMGs/Icons/CR-X.png" title="CR-X | Home"/></a>
+      </div>
+
+      <nav class="nav">
+        <a href="/JET-Net/CR-X/CR-X.html">Home</a>
+        <a href="#">Route</a>
+        <a href="./Updates.html">Updates & Current Traffic</a>
+        <a href="#">About</a>
+        <a href="/" title="↩ Terug naar JET-Net">↩ Return to JET-Net</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- MAIN -->
+  <main class="content">
+   
+    <h1>Updates & Current Traffic Situation</h1>
+
+    <div class="traffic-container">
+      <div class="traffic-info">
+        <!-- Traffic Banner -->
+        <div class="traffic-banner">
+          <span class="icon"><img src="./TrafficJam.svg" width="50" height="50"></span>
+          <div class="details">
+            <span class="main">10 km | 30 min. delay</span>
+            <span class="sub">The Core <span style="border: 3px solid #ffffff; border-radius: 10px; background-color: #ffffff; color: rgb(0, 0, 0); font-weight: bold;">(> ARC3)</span> &amp; 3 more segments affected</span>
+          </div>
+        </div>
+
+        <section class="traffic-section">
+          <h2>Current Traffic</h2>
+          <div class="traffic-card">
+            <span class="icon"><img src="./TrafficJam.svg" width="50" height="50" style="filter: invert();"></span>
+            <div class="info">
+              <span class="main">500 mtr | 5 mins.</span>
+              <span class="sub">Congestion at The Core <span style="border: 3px solid #ff0000; border-radius: 10px; background-color: #ff0000; color: white">(> ARC3)</span>, delay due to construction works.</span>
+            </div>
+          </div>
+          <div class="traffic-card">
+            <span class="icon"><img src="./LaneClosed.webp" width="50" height="50"></span>
+            <div class="info">
+              <span class="main">1.2 km | 12 mins.</span>
+              <span class="sub">Roadworks at <span style="border: 3px solid #ff0000; border-radius: 10px; background-color: #ff0000; color: white">(> ARC3)</span>, lane closure until 18:00.</span>
+            </div>
+          </div>
+          <div class="traffic-card">
+            <span class="icon"><img src="./50.gif" width="50" height="50"></span>
+            <div class="info">
+              <span class="main">700 mtr | 7 mins.</span>
+              <span class="sub">Heavy traffic at Nexus Point, expect minor delays.</span>
+            </div>
+          </div>
+          <div class="traffic-card">
+            <span class="icon">✔</span>
+            <div class="info">
+              <span class="main">No delays</span>
+              <span class="sub">All other segments clear and open for travel.</span>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <div class="map-placeholder">
+        <img src="./DummyMap.png" alt="Dummy map placeholder" />
+      </div>
+    </div>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <span>Privacy Policy</span>
+      <span>Terms of Service</span>
+      <span>© 2025 CR-X Highway Authority</span>
+    </div>
+  </footer>
+
+</body>
+</html>

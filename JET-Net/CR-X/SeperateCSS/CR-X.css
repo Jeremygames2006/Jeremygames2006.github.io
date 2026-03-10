@@ -1,3 +1,10 @@
+::selection { /* Tekstselectiekleur rood maken (ipv blauw) */
+  background: red;
+  color: white
+}
+
+
+
 /* RESET */
 * {
   margin: 0;
@@ -10,6 +17,8 @@ body {
   background: #f4f4f4;
   color: #111;
   min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 /* HEADER */
@@ -62,8 +71,10 @@ body {
   width: 100%;
 }
 
+
 /* MAIN CONTENT */
 .content {
+  flex: 1 0 auto;
   padding: 2rem 1rem 6rem;
 }
 
@@ -122,8 +133,8 @@ body {
 
 /* FOOTER */
 .footer {
-  position: sticky;
-  bottom: 0;
+  flex-shrink: 0;
+  width: 100%;
   background: #e60000;
   color: white;
 }
