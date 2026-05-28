@@ -1,0 +1,84 @@
+<!-- Modulaire Wikipedia Template -->
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Wiki Template</title>
+  <link rel="stylesheet" href="/CSS/base.css">
+  <link rel="stylesheet" href="/CSS/styles.css">
+  <style>
+    .wiki-container {
+      max-width: 900px;
+      margin: 2em auto;
+      padding: 2em;
+      background: var(--background-color, #fff);
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    }
+    .wiki-module {
+      margin-bottom: 2em;
+      padding: 1em;
+      background: var(--module-bg, #f9f9f9);
+      border-radius: 8px;
+    }
+    .wiki-module h2 {
+      margin-top: 0;
+      color: var(--accent-color, #d00);
+    }
+    .wiki-info ul, .wiki-tasks ul {
+      list-style: none;
+      padding: 0;
+    }
+    .wiki-quotes blockquote {
+      font-style: italic;
+      color: #555;
+      border-left: 4px solid #d00;
+      padding-left: 1em;
+    }
+  </style>
+</head>
+<body>
+  <div class="wiki-container">
+    <!-- Basisinformatie Module -->
+    <section class="wiki-module wiki-info">
+      <h2>Basisinformatie</h2>
+      <ul>
+        <li><strong>Naam:</strong> [Naam]</li>
+        <li><strong>Identificatiecode:</strong> [Code]</li>
+        <li><strong>Leeftijd:</strong> [Leeftijd]</li>
+        <li><strong>Gezondheidsstatus:</strong> [Status]</li>
+        <li><strong>Nickname(s):</strong> [Nicknames]</li>
+        <li><strong>Geboren:</strong> [Geboorteplaats]</li>
+        <li><strong>Huidige Woonplaats:</strong> [Woonplaats]</li>
+      </ul>
+    </section>
+
+    <!-- Biografie Module -->
+    <section class="wiki-module wiki-bio">
+      <h2>Biografie</h2>
+      <p>[Biografie tekst]</p>
+    </section>
+
+    <!-- Citaten Module -->
+    <section class="wiki-module wiki-quotes">
+      <h2>Citaten</h2>
+      <blockquote>
+        [Citaat]
+      </blockquote>
+    </section>
+
+    <!-- Taken Module -->
+    <section class="wiki-module wiki-tasks">
+      <h2>Belangrijkste Taken</h2>
+      <ul>
+        <li>[Taak 1]</li>
+        <li>[Taak 2]</li>
+        <li>[Taak 3]</li>
+      </ul>
+    </section>
+
+    <!-- Extra modules kun je hier eenvoudig toevoegen -->
+  </div>
+</body>
+</html>

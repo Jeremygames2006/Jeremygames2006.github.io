@@ -29,10 +29,41 @@
   <link rel="stylesheet" href="/CSS/styles.css">
   <link rel="icon" href="/IMGs/Icons/JG2006.png">
   <script src="/CSS/script.js" defer></script>
+
+
+  <style>
+    .wiki-container {
+      max-width: 900px;
+      margin: 2em auto;
+      padding: 2em;
+      background: var(--background-color, #fff);
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    }
+    .wiki-module {
+      margin-bottom: 2em;
+      padding: 1em;
+      background: var(--module-bg, #f9f9f9);
+      border-radius: 8px;
+    }
+    .wiki-module h2 {
+      margin-top: 0;
+      color: var(--accent-color, #d00);
+    }
+    .wiki-info ul, .wiki-tasks ul {
+      list-style: none;
+      padding: 0;
+    }
+    .wiki-quotes blockquote {
+      font-style: italic;
+      color: #555;
+      border-left: 4px solid #d00;
+      padding-left: 1em;
+    }
+  </style>
 </head>
 
-
-<body data-brand-text="@ test">
+<body>
   <!-- Background Image-->
   <div class="parallax-layer" aria-hidden="true"></div>
 
@@ -72,85 +103,47 @@
     <a href="/Other/Other.html" title="-= Broodnodige informatie =-">Over</a>
   </nav>
 </header>
-
-  <!-- Main Page -->
-  <main>
-    <section class="hero" aria-labelledby="hero-title">
-      <div class="hero-content">
-        <p class="hero-kicker">Home</p>
-        <h1 id="hero-title">JET-Net <span style="font-weight: 100">// Just Efficient Transportation-Network</span></h1>
-        <p class="hero-subtitle">Het is <strong>gewoon efficiënt.</strong></p>
-      </div>
+  
+    <div class="wiki-container">
+    <!-- Basisinformatie Module -->
+    <section class="wiki-module wiki-info">
+      <h2>Basisinformatie</h2>
+      <ul>
+        <li><strong>Naam:</strong> [Naam]</li>
+        <li><strong>Identificatiecode:</strong> [Code]</li>
+        <li><strong>Leeftijd:</strong> [Leeftijd]</li>
+        <li><strong>Gezondheidsstatus:</strong> [Status]</li>
+        <li><strong>Nickname(s):</strong> [Nicknames]</li>
+        <li><strong>Geboren:</strong> [Geboorteplaats]</li>
+        <li><strong>Huidige Woonplaats:</strong> [Woonplaats]</li>
+      </ul>
     </section>
 
-    <!-- Blok -->
-    <section class="panel reveal" id="wat-is-jet-net" aria-labelledby="about-title">
-      <div class="panel-inner">
-        <h2 id="about-title">Wat is JET-Net?</h2>
-        <div class="copy-grid">
-          <p>
-            JET-Net is, zoals de titel al zegt, een netwerk met een eigen twist. Binnen de lore is het de overheid
-            van een wereld genaamd <strong>Arcantheum</strong>, en is het een bedrijf wat andere stappen maakt dan anderen.
-          </p>
-          <p>
-            JET-Net is niet zomaar een netwerk, of een bedrijf. Het is een overheid.
-          </p>
-        </div>
-        <p>
-          Op <a href="/JET-Net/jetnet.html" style="color: red; text-decoration: none;">dit gedeelte van de website</a> vind je meer informatie over JET-Net.
-        </p>
-      </div>
+    <!-- Biografie Module -->
+    <section class="wiki-module wiki-bio">
+      <h2>Biografie</h2>
+      <p>[Biografie tekst]</p>
     </section>
 
-
-
-    <!-- Blok -->
-    <section class="panel reveal" id="nieuws" aria-labelledby="news-title">
-      <div class="panel-inner">
-        <h2 id="news-title">Wat is er te doen op deze website?</h2>
-        
-        <div class="news-grid">
-          <article class="news-card reveal delay-1">
-            <h3>Software</h3>
-            <p>Iets nodig? Deze website host een aantal installatiebestanden voor programma's. Je weet maar nooit wanneer je iets nodig hebt.</p>
-            <a class="chip" href="/Resources/Resources.html">↗ Openen</a>
-          </article>
-          <article class="news-card reveal delay-2">
-            <h3>Verhalen & JET-Net</h3>
-            <p><strong>Informatie weten over JET-Net?</strong> Ook dat kan je hier vinden.</p>
-            <a class="chip" href="/JET-Net/jetnet.html">↗ Meer Info</a>
-          </article>
-          <!-- <article class="news-card reveal delay-3">
-            <h3>Community updates</h3>
-            <p>Toegankelijkheid en navigatie zijn aangescherpt voor mobiel, tablet en desktop zonder extra frameworks.</p>
-            <span class="chip">UX pass</span>
-          </article> -->
-        </div>
-
-      </div>
+    <!-- Citaten Module -->
+    <section class="wiki-module wiki-quotes">
+      <h2>Citaten</h2>
+      <blockquote>
+        [Citaat]
+      </blockquote>
     </section>
 
-
-
-    <!-- Blok -->
-    <section class="panel reveal" id="nieuws" aria-labelledby="news-title">
-      <div class="panel-inner">
-        <h2 id="news-title">Recente Updates</h2>
-        
-        <div class="news-grid">
-          <article class="news-card reveal delay-1">
-            <h3>NIKS</h3>
-            <p>Op dit moment is er niks bijzonders om te vermelden.</p>
-          </article>
-        </div>
-        
-      </div>
+    <!-- Taken Module -->
+    <section class="wiki-module wiki-tasks">
+      <h2>Belangrijkste Taken</h2>
+      <ul>
+        <li>[Taak 1]</li>
+        <li>[Taak 2]</li>
+        <li>[Taak 3]</li>
+      </ul>
     </section>
-  </main>
 
-  <!-- VOET -->
-  <footer class="site-footer reveal">
-    <p>JET-Net @ 28526</p>
-  </footer>
+    <!-- Extra modules kun je hier eenvoudig toevoegen -->
+  </div>
 </body>
 </html>
